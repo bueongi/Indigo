@@ -3,6 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 오픈그래픽 -->
+  <meta property="og:url" content="https://bueongi.github.io/Indigo/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="인디고">
+  <meta property="og:image" content="https://bueongi.github.io/Indigo/images/og_img.jpg">
+  <meta property="og:description" content="다양한 문구와 생활소품들을 찾아보세요">
+  <!-- 트위터그래픽 -->
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:title" content="인디고"> 
+  <meta name="twitter:url" content="https://bueongi.github.io/Indigo/">
+  <meta name="twitter:image" content="https://bueongi.github.io/Indigo/images/og_img.jpg"> 
+  <meta name="twitter:description" content="다양한 문구와 생활소품들을 찾아보세요"/>
+
+  <!-- 문서/작성자 정보 -->
+  <meta name="Date" content="2020-09-10">
+  <meta name="Keywords" content="인디고, indigo, 문구, 생활소품, 디자인">
+  <meta name="Description" content="다양한 문구와 생활소품들을 찾아보세요">
+  <meta name="Author" content="megabox">
+
   <!-- 파비콘 -->
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="indigo-touch-icon.png">
@@ -34,15 +53,13 @@
         <nav class="nav">
           <ul>
             <li><a href="#">HOME</a></li>
-            <li><a href="#">WE ARE</a></li>
-            <li><a href="#">WORK</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">CONTACT US</a></li>
+            <li id="blank"><a href="#">WE ARE</a></li>
+            <li id="blank"><a href="#">WORK</a></li>
+            <li id="blank"><a href="#">BLOG</a></li>
+            <li id="blank"><a href="#">CONTACT US</a></li>
           </ul>
         </nav>
-        <div id="tgl_btn" onclick="
-          document.querySelector('.nav').classList.toggle('active');
-        ">
+        <div id="tgl_btn">
           <div class="line">라인</div>
         </div>
       </div>
@@ -65,21 +82,21 @@
             <p class="sub_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </a>
         </li>
-        <li>
+        <li id="blank">
           <a href="#">
             <img src="./images/promo02.png" alt="프로모션 02">
             <p class="icons_tit">WE ARE</p>
             <p class="sub_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </a>
         </li>
-        <li>
+        <li id="blank">
           <a href="#">
             <img src="./images/promo03.png" alt="프로모션 03">
             <p class="icons_tit">WORK</p>
             <p class="sub_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </a>
         </li>
-        <li>
+        <li id="blank">
           <a href="#">
             <img src="./images/promo04.png" alt="프로모션 04">
             <p class="icons_tit">BLOG</p>
@@ -178,21 +195,21 @@
         <li>
           <h2 class="sub_tit">BLOG</h2>
         </li>
-        <li>
+        <li id="blank">
           <a href="#">
             <img src="./images/blog01.jpg" alt="블로그01">
             <p class="blog_date">OCT 30, 2016</p>
             <p class="sub_txt">There are many variations of passages of Lorem Ipsum</p>
           </a>
         </li>
-        <li>
+        <li id="blank">
           <a href="#">
             <img src="./images/blog02.jpg" alt="블로그02">
             <p class="blog_date">OCT 30, 2016</p>
             <p class="sub_txt">There are many variations of passages of Lorem Ipsum</p>
           </a>
         </li>
-        <li>
+        <li id="blank">
           <a href="#">
             <img src="./images/blog03.jpg" alt="블로그03">
             <p class="blog_date">OCT 30, 2016</p>
@@ -221,7 +238,5 @@
     </footer>
   </div>
 </body>
-<script>
-
-</script>
+<script src="./js/default.js"></script>
 </html>
